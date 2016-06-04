@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{708117CB-6A9A-FAC6-252D-2A56940DAF51}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AdvancedFootstepSystem\Scripts\AdvFootstepSystem.cs" />
+     <Compile Include="Assets\AtavismObjects\Other\PatrolPathMarker.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\Abilities.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\Actions.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\Activatable.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\Atavism3rdPersonInput.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\AtavismAbility.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\AtavismBuildObjectTemplate.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\AtavismCombat.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\AtavismCommand.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\AtavismCraftingRecipe.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\AtavismCursor.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\AtavismEffect.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\AtavismEventMessageHandler.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\AtavismGroup.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\AtavismInventoryItem.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\AtavismLegacyAnimationMobController3D.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\AtavismMecanimMobController3D.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\AtavismMobAppearance.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\AtavismParticles.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\AtavismScriptEvent.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\AtavismTarget.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\AtavismTrade.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\CharacterSelectionCreationManager.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\ClaimScript.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\CoordinatedEffects\CoordAnimation.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\CoordinatedEffects\CoordLocalAnimation.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\CoordinatedEffects\CoordMeleeStrikeEffect.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\CoordinatedEffects\CoordMobSoundEffect.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\CoordinatedEffects\CoordObjectAnimation.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\CoordinatedEffects\CoordParticleEffect.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\CoordinatedEffects\CoordProjectileEffect.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\Crafting.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\Currency.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\DetourActor.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\EquipmentDisplay.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\ExampleResourceManager.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\AtavismClassData.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\AtavismGraveyard.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\AtavismMount.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\AtavismNavMesh.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\AtavismNavMeshTile.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\AtavismRaceData.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\AtavismRegion.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\ClaimObject.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\ClaimObjectChild.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\CraftingStation.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\DismountRegion.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\InstancePortal.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\InteractiveObject.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\Mailbox.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\MusicAreaTrigger.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\NoBuildClaimRegion.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\ObjectChildMouseDetector.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\ObjectCollisionTrigger.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\OffMeshConnector.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\PvPRegion.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\RecastNavMeshQuery.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\ResourceDrop.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\GameObject Components\ResourceNode.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\InteractiveObjectsManager.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\Inventory.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\LoadingScreen.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\LoginController.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\Mailing.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\MobController3D.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\MobCreator.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\MobSoundSet.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\NpcInteraction.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\PortraitManager.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\Quests.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\SDETargeting.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\ShootWeapon.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\Skill.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\Skills.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\SoundSystem.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\SpawnMarker.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\StandardCommands.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\Startup.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\TimeEventController.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\TimeManager.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\Character Scene\UGUICharacterClassSlot.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\Character Scene\UGUICharacterRaceSlot.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\Character Scene\UGUICharacterSelectSlot.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\Character Scene\UGUIServerList.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\Character Scene\UGUIServerListEntry.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIAbilitiesList.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIAbility.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIAbilitySlot.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIActionBar.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIActionBarSlot.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIAdminChooseEntry.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIAdminPanel.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIAmmoFrame.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIAnnouncementText.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIAtavismActivatable.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIBag.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIBagBar.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIBagSlot.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIBuildObject.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIBuildObjectTarget.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIBuildObjectsList.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUICastingBar.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUICharacterEquipFrame.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUICharacterEquipSlot.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIChatController.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIClaimPermission.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIConfirmationPanel.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUICraftingPanel.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUICraftingSlot.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUICurrency.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUICurrencyInputPanel.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUICurrencyPanel.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIDeathPopup.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIDialogPopup.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIDialogueBarButton.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIDialogueOption.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIDialoguePanel.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIDraggableSlot.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIEditObjectDropPanel.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIEffect.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIEffectsPanel.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIErrorText.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIFloatingMobPanel.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIFloatingMobPanelController.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIGameMenu.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIGroupMember.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIGroupPanel.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIInventorySlot.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIItemDisplay.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUILootList.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUILootListEntry.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIMailAttachment.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIMailAttachmentSlot.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIMailCompose.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIMailList.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIMailListEntry.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIMailRead.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIMerchantFrame.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIMerchantItemEntry.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIMerchantItemSlot.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIPanelTitleBar.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIPortrait.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIQuestConclude.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIQuestList.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIQuestListEntry.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIQuestOffer.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIQuestProgress.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIRepairSlot.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIRepairWindow.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIResourceLootList.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIResourceLootListEntry.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUISharedParentButton.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUISharedUIFrameParent.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUISkillButton.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUISkillText.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUISkillsWindow.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUISoundOptions.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIStatBar.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIStatText.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUITargetPortrait.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUITooltip.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUITooltipAttributeRow.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUITradeOffer.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUITradeSlot.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUITradeWindow.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\UGUIWorldBuilder.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\Util\ChangeCharacterScene.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\Util\SetFocus.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\Util\TabBehaviour.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UGUI\Util\UGUISendColor.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\ActionBar.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\ActionBarButton.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\AnnouncementUI.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\AtavismUIManager.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\AtavismWindowTemplate.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\BagBar.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\CastingBar.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\Character.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\ChatController.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\Compass.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\ConfirmationBox.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\CraftingGrid.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\CurrenciesUI.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\DeathBox.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\DialogueUI.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\ErrorMessage.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\LoginUI.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\Loot.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\MailBoxUI.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\MerchantUI.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\MyCrosshair.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\PlayerPortrait.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\QuestLog.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\ResourceLoot.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\SkillsUI.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\SoundMenu.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\TargetPortrait.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\ToolButtonsBar.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\Tooltips.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\UI Components\WorldBuilderUI.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\WorldBuilder.cs" />
+     <Compile Include="Assets\AtavismObjects\Scripts\WorldBuilderInterface.cs" />
+     <Compile Include="Assets\Bird Flocks\Scripts\Addons\UnluckDistanceDisabler.cs" />
+     <Compile Include="Assets\Bird Flocks\Scripts\Demo\SmoothCameraOrbit.cs" />
+     <Compile Include="Assets\InteractiveDemo\Scripts\FireProjectile.cs" />
+     <Compile Include="Assets\InteractiveDemo\Scripts\MyGUI.cs" />
+     <Compile Include="Assets\InteractiveDemo\Scripts\Projectile.cs" />
+     <Compile Include="Assets\InteractiveDemo\Scripts\ProjectileScript.cs" />
+     <Compile Include="Assets\InteractiveDemo\Scripts\lightScript.cs" />
+     <Compile Include="Assets\InteractiveDemo\Scripts\lightScriptLong.cs" />
+     <Compile Include="Assets\KunaiEditor\KunaiRotation.cs" />
+     <Compile Include="Assets\OnQ Nature Pack 1 v2\Resources Demo\Scripts\ScrollingUVs.cs" />
+     <Compile Include="Assets\OnQ Nature Pack 1 v2\Resources Demo\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\OnQ Nature Pack 1 v2\Resources Demo\Terrain\Demoscene\atsV2 UnityTerrainBump Package\CustomTerrainScriptAtsV2.cs" />
+     <Compile Include="Assets\OtherPackages\RichChatBox\Pool\ObjectPool.cs" />
+     <Compile Include="Assets\OtherPackages\RichChatBox\Pool\PoolObject.cs" />
+     <Compile Include="Assets\OtherPackages\RichChatBox\RichChatBox.cs" />
+     <Compile Include="Assets\OtherPackages\RichChatBox\RichChatMessage.cs" />
+     <Compile Include="Assets\OtherPackages\ScrollList\ScrollCellTest.cs" />
+     <Compile Include="Assets\OtherPackages\ScrollList\ScrollListTest.cs" />
+     <Compile Include="Assets\OtherPackages\ScrollList\UList.cs" />
+     <Compile Include="Assets\OtherPackages\SimpleParticlePack\Scripts\ParticleTester.cs" />
+     <Compile Include="Assets\RealisticWater\Scripts\Caustic\CausticDecal.cs" />
+     <Compile Include="Assets\RealisticWater\Scripts\Water\Buoyancy.cs" />
+     <Compile Include="Assets\RealisticWater\Scripts\Water\DepthFix.cs" />
+     <Compile Include="Assets\RealisticWater\Scripts\Water\DistortionMobileCamera.cs" />
+     <Compile Include="Assets\RealisticWater\Scripts\Water\MoveCameraToCharacter.cs" />
+     <Compile Include="Assets\RealisticWater\Scripts\Water\MoveWaterToCamera.cs" />
+     <Compile Include="Assets\RealisticWater\Scripts\Water\ProjectorMatrix.cs" />
+     <Compile Include="Assets\RealisticWater\Scripts\Water\ReflectionCamera.cs" />
+     <Compile Include="Assets\RealisticWater\Scripts\Water\RippleCreator.cs" />
+     <Compile Include="Assets\RealisticWater\Scripts\Water\TextureScale.cs" />
+     <Compile Include="Assets\RealisticWater\Scripts\Water\Underwater.cs" />
+     <Compile Include="Assets\RealisticWater\Scripts\Water\UnderwaterPostEffects.cs" />
+     <Compile Include="Assets\RealisticWater\Scripts\Water\WaterRipples.cs" />
+     <Compile Include="Assets\Rocks and Boulders 2\Shaders\Desaturate\DesaturateEffect.cs" />
+     <Compile Include="Assets\Rocks and Boulders 2\Shaders\RotateGameObject.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\ClickToMoveInputController.cs" />
+     <Compile Include="Assets\Scripts\ClickToMoveTargetableObject.cs" />
+     <Compile Include="Assets\Scripts\CombineChildren.cs" />
+     <Compile Include="Assets\Scripts\MeshCombineUtility.cs" />
+     <Compile Include="Assets\Scripts\UMA\AdditionalSlots\CharacterController\CharacterControllerSlotScript.cs" />
+     <Compile Include="Assets\Scripts\UMA\AdditionalSlots\CharacterSockets\CharacterSocketsSlotScript.cs" />
+     <Compile Include="Assets\Scripts\UMA\AtavismUMAAvatar.cs" />
+     <Compile Include="Assets\Scripts\UMA\AtavismUMADnaProperty.cs" />
+     <Compile Include="Assets\Scripts\UMA\AtavismUMAMeshDisplay.cs" />
+     <Compile Include="Assets\Scripts\UMA\LoginUmaUI.cs" />
+     <Compile Include="Assets\Scripts\UMA\NPCUmaSettings.cs" />
+     <Compile Include="Assets\Scripts\UMA\UMAAppearanceController.cs" />
+     <Compile Include="Assets\Scripts\UMA\UMACharacterSelectionCreation.cs" />
+     <Compile Include="Assets\Scripts\UMA\UMAEquipmentDisplay.cs" />
+     <Compile Include="Assets\Scripts\UMA\UMAGeneratorFixed.cs" />
+     <Compile Include="Assets\Scripts\UMA\UMAHumanFemaleAppearance.cs" />
+     <Compile Include="Assets\Scripts\UMA\UMAHumanMaleAppearance.cs" />
+     <Compile Include="Assets\Scripts\UMA\UMAMobAppearance.cs" />
+     <Compile Include="Assets\Scripts\UMA\UMAPropertyChanger.cs" />
+     <Compile Include="Assets\Scripts\UMA\UMAPropertyColourPicker.cs" />
+     <Compile Include="Assets\Scripts\UMA\UMAPropertyHandler.cs" />
+     <Compile Include="Assets\Scripts\UMA\UMAPropertySlider.cs" />
+     <Compile Include="Assets\Scripts\UMA\UmaCharacterUI.cs" />
+     <Compile Include="Assets\Scripts\UMA\Util\SerializableDictionary.cs" />
+     <Compile Include="Assets\TENKOKU - DYNAMIC SKY\SCRIPTS\TenkokuBlur.cs" />
+     <Compile Include="Assets\TENKOKU - DYNAMIC SKY\SCRIPTS\TenkokuGaia.cs" />
+     <Compile Include="Assets\TENKOKU - DYNAMIC SKY\SCRIPTS\TenkokuSkyFog.cs" />
+     <Compile Include="Assets\TENKOKU - DYNAMIC SKY\SCRIPTS\TenkokuSunShafts.cs" />
+     <Compile Include="Assets\UMA\Content\UMA\Humanoid\DNA\HumanFemaleDNAConverterBehaviour.cs" />
+     <Compile Include="Assets\UMA\Content\UMA\Humanoid\DNA\HumanMaleDNAConverterBehaviour.cs" />
+     <Compile Include="Assets\UMA\Content\UMA\Humanoid\DNA\HumanoidDNAConverterBehaviour.cs" />
+     <Compile Include="Assets\UMA\Content\UMA\Humanoid\DNA\TutorialDNAConverterBehaviour.cs" />
+     <Compile Include="Assets\UMA\Content\UMA\Humanoid\DNA\UMADna.cs" />
+     <Compile Include="Assets\UMA\Content\UMA\Humanoid\DNA\UMADnaHumanoid.cs" />
+     <Compile Include="Assets\UMA\Content\UMA\Humanoid\DNA\UMADnaHumanoid_Generated.cs" />
+     <Compile Include="Assets\UMA\Content\UMA\Humanoid\DNA\UMADnaTutorial.cs" />
+     <Compile Include="Assets\UMA\Content\UMA\Humanoid\DNA\UMADnaTutorial_Generated.cs" />
+     <Compile Include="Assets\UMA\Content\UMA\Humanoid\DNA\UMADna_Generated.cs" />
+     <Compile Include="Assets\UMA\Content\UMA\Humanoid\Slots\AdditionalSlots\CapsuleCollider\CapsuleColliderSlotScript.cs" />
+     <Compile Include="Assets\UMA\Content\UMA\Humanoid\Slots\AdditionalSlots\Expressions\ExpressionSlotScript.cs" />
+     <Compile Include="Assets\UMA\Content\UMA\Humanoid\Slots\AdditionalSlots\ForearmTwist\ForearmTwistSlotScript.cs" />
+     <Compile Include="Assets\UMA\Content\UMA\Humanoid\Slots\AdditionalSlots\Locomotion\LocomotionSlotScript.cs" />
+     <Compile Include="Assets\UMA\Content\UMA\Legacy\Slots\Female\FemaleEyelash\FemaleEyelash_EventScript.cs" />
+     <Compile Include="Assets\UMA\Example\Expressions\Scenes\Scripts\ActiveObjectSwitcher.cs" />
+     <Compile Include="Assets\UMA\Example\Expressions\Scenes\Scripts\EditModeExpressionPreview.cs" />
+     <Compile Include="Assets\UMA\Example\Expressions\Scenes\Scripts\SliderExpressionTest.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\CameraTrack.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\HUDFPS.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\Locomotion.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\OverlayLibrary.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\RaceLibrary.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\SharedColorTable.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\SkeletonTools.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\SlotLibrary.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\UMACharacterCustomization.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\UMACrowd.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\UMACrowdRandomSet.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\UMACustomization.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\UMAGenericCrowd.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\UMAGenericCustomization.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\UMAPackedRecipeBase.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\UMARecipeCrowd.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\UMARecipeMixer.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\UMARemoveComponents.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\UMASlotVerifyWizard.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\UMATestEventsScript.cs" />
+     <Compile Include="Assets\UMA\Example\Scripts\UMATextRecipe.cs" />
+     <Compile Include="Assets\UMA\Example\Shaders\BRDFLookupTexture.cs" />
+     <Compile Include="Assets\ship_pack_Unity5\scripts\Controller.cs" />
+     <Compile Include="Assets\ship_pack_Unity5\scripts\FollowShip.cs" />
+     <None Include="Assets\MEDIEVAL_ANIMATIONS_MEGA_PACK_new\2Weapons\2W_motiondata.xml" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Mobs.xml" />
+     <None Include="Assets\UMA\Editor\Templates\UmaDna_Save_Fragment.cs.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\UMA\Editor\Templates\UmaDnaChild_GetIndex_Fragment.cs.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\RealisticWater\Shaders\WaterPC.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField35.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\UMA\Editor\Templates\UmaDnaChild_GetNames_Fragment.cs.txt" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset4.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Rocks and Boulders 2\Shaders\shader info.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares 1.shader" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Player Character Setup.xml" />
+     <None Include="Assets\ship_pack_Unity5\scripts\Standard_cull_off.shader" />
+     <None Include="Assets\MEDIEVAL_ANIMATIONS_MEGA_PACK_new\Halberd\Halberd_motiondata.xml" />
+     <None Include="Assets\UMA\Example\Shaders\UnLogickShaders\Debug_Normals.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance 1.shader" />
+     <None Include="Assets\RealisticWater\Shaders\WaterLighting.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\TENKOKU - DYNAMIC SKY\SHADERS\TenkokuSunShafts.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\TENKOKU - DYNAMIC SKY\SHADERS\Tenkoku_galaxy.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset5.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA 1.shader" />
+     <None Include="Assets\UMA\Example\Shaders\UnLogickShaders\Human-Normal-Diffuse-Metallic.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\OnQ Nature Pack 1 v2\Resources Demo\Terrain\Demoscene\atsV2 billboardShader package\TreeCreatorLeavesRendertex.shader" />
+     <None Include="Assets\MEDIEVAL_ANIMATIONS_MEGA_PACK_new\Wisard&apos;s\Wizard_motiondata.xml" />
+     <None Include="Assets\OnQ Nature Pack 1 v2\Resources Demo\Terrain\Demoscene\atsV2 billboardShader package\TreeCreatorBarkRendertex.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Quests.xml" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Instances.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation 1.shader" />
+     <None Include="Assets\MagicProjectiles - ReadMe.txt" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Abilities.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate 1.shader" />
+     <None Include="Assets\OnQ Nature Pack 1 v2\Resources Demo\Terrain\Demoscene\ats vertexLitShader Package\Shader\atsv2 vertexlit.shader" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Loot Tables.xml" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter 1.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Resources\Content\FX\shader\myDistorsion.shader" />
+     <None Include="Assets\OnQ Nature Pack 1 v2\Resources Demo\Terrain\Demoscene\atsV2 grassShader Package\atsV2WavingGrass.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\UMA\Example\Expressions\Scenes\Editing Expression Clips.txt" />
+     <None Include="Assets\MEDIEVAL_ANIMATIONS_MEGA_PACK_new\Horseman\Horseman_motiondata.xml" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\ship_pack_Unity5\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\UMA\Example\Shaders\UnLogickShaders\Human-Normal-Diffuse.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend 1.shader" />
+     <None Include="Assets\Gui\Fonts.txt" />
+     <None Include="Assets\Medieval Girl\clips3.txt" />
+     <None Include="Assets\UMA\Editor\Templates\UmaDna_Template.cs.txt" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Effects.xml" />
+     <None Include="Assets\Gui\Sliced Images\- 50%\- Menu (large buttons)\how to.txt" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Coord Effects.xml" />
+     <None Include="Assets\TENKOKU - DYNAMIC SKY\SHADERS\Particle Alpha Blend.shader" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Crafting Recipes.xml" />
+     <None Include="Assets\UMA\_ReleaseNotes.txt" />
+     <None Include="Assets\UMA\Editor\Templates\UmaDnaChild_Byte_FromDna_Fragment.cs.txt" />
+     <None Include="Assets\Bird Flocks\Scripts\C# Scripts\- IMPORTANT - Version Change Readme.txt" />
+     <None Include="Assets\TENKOKU - DYNAMIC SKY\SHADERS\Tenkoku_suneclipse.shader" />
+     <None Include="Assets\OnQ Nature Pack 1 v2\Resources Demo\Terrain\Demoscene\atsV2 billboardShader package\Tree.cginc" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter 1.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus 1.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh35.shader" />
+     <None Include="Assets\UMA\Editor\Templates\UmaDnaChild_Byte_Fields_Fragment.cs.txt" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Accounts.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\UMA\Example\Shaders\TransparentTwoSided.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+     <None Include="Assets\Medieval_Knights\Source\Shaders\Virtualware_BumpSpec.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof35.shader" />
+     <None Include="Assets\UMA\Editor\Templates\UmaDna_GetNames_Fragment.cs.txt" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\UMA\Core\Atlas\AtlasShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\TENKOKU - DYNAMIC SKY\SHADERS\TenkokuBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Data Base.xml" />
+     <None Include="Assets\OnQ Nature Pack 1 v2\Resources Demo\Terrain\Demoscene\atsV2 UnityTerrainBump Package\TerrainReplacementAtsV2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\SourceDirectory.txt" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\RealisticWater\Shaders\WaterMobile.shader" />
+     <None Include="Assets\TENKOKU - DYNAMIC SKY\SHADERS\Tenkoku_aurora_plane.shader" />
+     <None Include="Assets\UMA\Content\UMA\Humanoid\FBX\Expressions\Blender_Pose_Frames.xml" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA 1.shader" />
+     <None Include="Assets\UMA\Editor\Templates\UmaDna_GetType_Fragment.cs.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\UMA\Editor\Templates\UmaDna_GetTypes_Fragment.cs.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne 1.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console 1.shader" />
+     <None Include="Assets\Medieval Tools\Readme.txt" />
+     <None Include="Assets\RealisticWater\Shaders\WaterMobileWithRipples.shader" />
+     <None Include="Assets\Standard Assets\UMA\Core\Atlas\AtlasNormalShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\AdvancedFootstepSystem\readme.txt" />
+     <None Include="Assets\UMA\Editor\Templates\UmaDnaChild_Template.cs.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\UMA\Example\Shaders\Normal-BumpSpec.shader" />
+     <None Include="Assets\Resources\Content\FX\shader\myDistorsionNN.shader" />
+     <None Include="Assets\UMA\Example\Shaders\UnLogickShaders\Debug_Tangents.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction 1.shader" />
+     <None Include="Assets\RealisticWater\Shaders\CausticPC.shader" />
+     <None Include="Assets\RealisticWater\Shaders\RipplesCausticPC.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\RealisticWater\Shaders\CausticMobile.shader" />
+     <None Include="Assets\SFBayStudios\SFB Dragon\--READ ME PLEASE--\READ ME PLEASE.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\TENKOKU - DYNAMIC SKY\SHADERS\Tenkoku_fx_particle.shader" />
+     <None Include="Assets\Gui\Sliced Images\- Menu (large buttons)\how to.txt" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Skills.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\TENKOKU - DYNAMIC SKY\_Tenkoku_ReadMe.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\OtherPackages\Fantasy RPG Icon Set- Free\Notes.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\TENKOKU - DYNAMIC SKY\SHADERS\Tenkoku_cloud_plane.shader" />
+     <None Include="Assets\GatheringTools\Readme.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\TENKOKU - DYNAMIC SKY\SHADERS\Tenkoku_planet.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Option Choices.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Items.xml" />
+     <None Include="Assets\TENKOKU - DYNAMIC SKY\SHADERS\Tenkoku_moonsphere.shader" />
+     <None Include="Assets\UMA\Editor\Templates\UmaDnaChild_Byte_ToDna_Fragment.cs.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\UMA\Editor\Templates\UmaDna_Load_Fragment.cs.txt" />
+     <None Include="Assets\Gui\readme.txt" />
+     <None Include="Assets\UMA\Editor\Templates\UmaDnaChild_SetIndex_Fragment.cs.txt" />
+     <None Include="Assets\Rocks and Boulders 2\Shaders\Blend SM3.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\OtherPackages\Horse\SoftAlpha.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\TENKOKU - DYNAMIC SKY\SHADERS\Tenkoku_FX_Fog.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Medieval Lightsources Pack\Models\ReadMe.txt" />
+     <None Include="Assets\UMA\Editor\Templates\UmaDnaChild_SetValue_Fragment.cs.txt" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur 1.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA 1.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\UMA\Example\Shaders\Rim.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Rocks and Boulders 2\Shaders\Desaturate\DesaturateEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\TENKOKU - DYNAMIC SKY\SHADERS\TenkokuDepth.shader" />
+     <None Include="Assets\UMA\Example\Shaders\Normal-BumpSpec_Rim.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Bird Flocks\Included Assets\Unluck Software Feather Particles\Feathers - Readme.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\KunaiEditor\Editor\Readme.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\UMA\Editor\Templates\UmaDnaChild_GetValue_Fragment.cs.txt" />
+     <None Include="Assets\Terrain Demo Assets\Birds\Heron\Vegetation-TwoPass.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Dialogue.xml" />
+     <None Include="Assets\TENKOKU - DYNAMIC SKY\SHADERS\Tenkoku_skybox.shader" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Factions.xml" />
+     <None Include="Assets\TENKOKU - DYNAMIC SKY\SHADERS\Tenkoku_fx_particle_lit.shader" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Damage.xml" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader 1.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\AtavismUnity\Editor\Help\Stats.xml" />
+     <None Include="Assets\Rocks and Boulders 2\Shaders\Blend SM2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+     <None Include="Assets\RealisticWater\Shaders\DistortionParticlesCutout.shader" />
+     <None Include="Assets\UMA\Example\DLL\DLL Source Code.txt" />
+     <None Include="Assets\Bird Flocks\Bird Flock Readme.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\SFBayStudios\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply 1.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>C:/Users/mypc/Documents/Morvana Main Development/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>C:/Users/mypc/Documents/Morvana Main Development/Assets/AtavismObjects/External/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="AtavismCore">
+ <HintPath>C:/Users/mypc/Documents/Morvana Main Development/Assets/Standard Assets/Atavism Core/AtavismCore.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>C:/Users/mypc/Documents/Morvana Main Development/Assets/UMA/Example/DLL/LitJson.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{1DB6BE1C-198C-54EB-B64A-85BE188CAA1E}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
